@@ -1,7 +1,6 @@
 export const siteConfig = {
   name: "Krutrim Cloud UI",
   url: "https://ui.shadcn.com",
-  ogImage: "https://ui.shadcn.com/og.jpg",
   description:
     "A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code.",
   links: {

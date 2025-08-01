@@ -2,8 +2,6 @@
 
 A modern, accessible, and customizable component library built for the Krutrim Cloud platform. Free. Open Source. **Use this to build your own component library**.
 
-![hero](apps/www/public/og.jpg)
-
 ## About
 
 Krutrim Cloud UI provides a comprehensive set of React components designed for building modern web applications. Built with TypeScript, Tailwind CSS, and Radix UI primitives.
@@ -29,4 +27,4 @@ Please read the [contributing guide](/CONTRIBUTING.md).
 
 ## License
 
-Licensed under the [MIT license](https://github.com/akshayborade09/krutrim-cloud/blob/main/LICENSE.md).
+Licensed under the [Krutrim license](https://github.com/akshayborade09/krutrim-cloud/blob/main/LICENSE.md).
