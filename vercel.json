@@ -1,5 +1,6 @@
 {
-  "buildCommand": "turbo --filter=www build",
+  "buildCommand": "pnpm vercel:build",
+  "outputDirectory": "apps/www/.next",
   "installCommand": "pnpm install",
   "framework": "nextjs"
 } 
