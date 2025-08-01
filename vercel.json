@@ -1,4 +1,12 @@
 {
-  "buildCommand": "pnpm vercel:build",
-  "framework": "nextjs"
+  "version": 2,
+  "builds": [
+    {
+      "src": "apps/www/next.config.mjs",
+      "use": "@vercel/next",
+      "config": {
+        "buildCommand": "cd apps/www && pnpm vercel:build"
+      }
+    }
+  ]
 } 
