@@ -6,14 +6,14 @@ A modern, accessible, and customizable component library built for the Krutrim C
 
 Krutrim Cloud UI provides a comprehensive set of React components designed for building modern web applications. Built with TypeScript, Tailwind CSS, and Radix UI primitives.
 
-## Features
+<!-- ## Features
 
 - 🎨 **Customizable** - All components are built with customization in mind
 - ♿ **Accessible** - Built on top of Radix UI primitives for better accessibility
 - 🎯 **TypeScript** - Full TypeScript support for better developer experience
 - 🎨 **Multiple Styles** - Support for different visual styles (Compact, Default)
 - 📱 **Responsive** - Mobile-first responsive design
-- 🌙 **Dark Mode** - Built-in dark mode support
+- 🌙 **Dark Mode** - Built-in dark mode support -->
 
 ## Getting Started
 
