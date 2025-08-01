@@ -4,7 +4,6 @@ import { mdxComponents } from "@/mdx-components"
 import {
   IconArrowLeft,
   IconArrowRight,
-  IconArrowUpRight,
 } from "@tabler/icons-react"
 import { findNeighbour } from "fumadocs-core/server"
 
@@ -13,7 +12,6 @@ import { absoluteUrl } from "@/lib/utils"
 import { DocsCopyPage } from "@/components/docs-copy-page"
 import { DocsTableOfContents } from "@/components/docs-toc"
 // import { OpenInV0Cta } from "@/components/open-in-v0-cta"
-import { Badge } from "@/registry/new-york-v4/ui/badge"
 import { Button } from "@/registry/new-york-v4/ui/button"
 
 export const revalidate = false
@@ -86,9 +84,6 @@ export default async function Page(props: {
   const MDX = doc.body
   const neighbours = await findNeighbour(source.pageTree, page.url)
 
-  // @ts-expect-error - revisit fumadocs types.
-  const links = doc.links
-
   return (
     <div
       data-slot="docs"
@@ -143,24 +138,6 @@ export default async function Page(props: {
                 </p>
               )}
             </div>
-            {/* {links ? (
-              <div className="flex items-center space-x-2 pt-4">
-                {links?.doc && (
-                  <Badge asChild variant="secondary">
-                    <Link href={links.doc} target="_blank" rel="noreferrer">
-                      Docs <IconArrowUpRight />
-                    </Link>
-                  </Badge>
-                )}
-                {links?.api && (
-                  <Badge asChild variant="secondary">
-                    <Link href={links.api} target="_blank" rel="noreferrer">
-                      API Reference <IconArrowUpRight />
-                    </Link>
-                  </Badge>
-                )}
-              </div>
-            ) : null} */}
           </div>
           <div className="w-full flex-1 *:data-[slot=alert]:first:mt-0">
             <MDX components={mdxComponents} />

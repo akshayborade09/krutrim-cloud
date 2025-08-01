@@ -36,13 +36,11 @@ export function CommandMenu({
   tree,
   colors,
   blocks,
-  navItems,
   ...props
 }: DialogProps & {
   tree: typeof source.pageTree
   colors: ColorPalette[]
   blocks?: { name: string; description: string; categories: string[] }[]
-  navItems?: { href: string; label: string }[]
 }) {
   const router = useRouter()
   const isMac = useIsMac()

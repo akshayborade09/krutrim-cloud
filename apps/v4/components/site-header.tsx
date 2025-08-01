@@ -8,7 +8,6 @@ import { GitHubLink } from "@/components/github-link"
 import { Icons } from "@/components/icons"
 import { MainNav } from "@/components/main-nav"
 import { MobileNav } from "@/components/mobile-nav"
-import { ModeSwitcher } from "@/components/mode-switcher"
 import { SiteConfig } from "@/components/site-config"
 // import blocks from "@/registry/__blocks__.json"
 import { Button } from "@/registry/new-york-v4/ui/button"
@@ -44,7 +43,6 @@ export function SiteHeader() {
               <CommandMenu
                 tree={pageTree}
                 colors={colors}
-                navItems={siteConfig.navItems}
               />
             </div>
             <Separator
