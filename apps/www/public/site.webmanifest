@@ -1,7 +1,12 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "Krutrim Cloud UI",
+  "short_name": "Krutrim UI",
   "icons": [
+    {
+      "src": "/krutrim-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
     {
       "src": "/android-chrome-192x192.png",
       "sizes": "192x192",

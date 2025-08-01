@@ -47,9 +47,18 @@ export const metadata: Metadata = {
     creator: "@shadcn",
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    icon: [
+      {
+        url: "/favicon.svg",
+        type: "image/svg+xml",
+      },
+      {
+        url: "/favicon.ico",
+        sizes: "any",
+      },
+    ],
+    shortcut: "/favicon.svg",
+    apple: "/apple-touch-icon.svg",
   },
   manifest: `${siteConfig.url}/site.webmanifest`,
 }
