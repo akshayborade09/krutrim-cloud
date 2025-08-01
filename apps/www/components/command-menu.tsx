@@ -3,8 +3,7 @@
 import * as React from "react"
 import { useRouter } from "next/navigation"
 import { type DialogProps } from "@radix-ui/react-dialog"
-import { Circle, File, Laptop, Moon, Sun } from "lucide-react"
-import { useTheme } from "next-themes"
+import { Circle } from "lucide-react"
 
 import { docsConfig } from "@/config/docs"
 import { cn } from "@/lib/utils"
@@ -16,13 +15,11 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-  CommandSeparator,
 } from "@/registry/new-york/ui/command"
 
 export function CommandMenu({ ...props }: DialogProps) {
   const router = useRouter()
   const [open, setOpen] = React.useState(false)
-  const { setTheme } = useTheme()
 
   React.useEffect(() => {
     const down = (e: KeyboardEvent) => {
@@ -60,17 +57,17 @@ export function CommandMenu({ ...props }: DialogProps) {
         onClick={() => setOpen(true)}
         {...props}
       >
-        <span className="hidden lg:inline-flex">Search documentation...</span>
+        <span className="hidden lg:inline-flex">Search components...</span>
         <span className="inline-flex lg:hidden">Search...</span>
         <kbd className="pointer-events-none absolute right-[0.3rem] top-[0.3rem] hidden h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex">
           <span className="text-xs">⌘</span>K
         </kbd>
       </Button>
       <CommandDialog open={open} onOpenChange={setOpen}>
-        <CommandInput placeholder="Type a command or search..." />
+        <CommandInput placeholder="Search components..." />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
-          <CommandGroup heading="Links">
+          {/* <CommandGroup heading="Links">
             {docsConfig.mainNav
               .filter((navitem) => !navitem.external)
               .map((navItem) => (
@@ -85,7 +82,7 @@ export function CommandMenu({ ...props }: DialogProps) {
                   {navItem.title}
                 </CommandItem>
               ))}
-          </CommandGroup>
+          </CommandGroup> */}
           {docsConfig.sidebarNav.map((group) => (
             <CommandGroup key={group.title} heading={group.title}>
               {group.items.map((navItem) => (
@@ -104,7 +101,7 @@ export function CommandMenu({ ...props }: DialogProps) {
               ))}
             </CommandGroup>
           ))}
-          <CommandSeparator />
+          {/* <CommandSeparator />
           <CommandGroup heading="Theme">
             <CommandItem onSelect={() => runCommand(() => setTheme("light"))}>
               <Sun />
@@ -118,7 +115,7 @@ export function CommandMenu({ ...props }: DialogProps) {
               <Laptop />
               System
             </CommandItem>
-          </CommandGroup>
+          </CommandGroup> */}
         </CommandList>
       </CommandDialog>
     </>

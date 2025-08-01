@@ -92,11 +92,11 @@ ${Object.entries(themesConfig?.activeTheme.cssVars.dark || {})
                 name={chart.name}
                 code={chart.files?.[0]?.content ?? ""}
               />
-              <V0Button
+              {/* <V0Button
                 id={`v0-button-${chart.name}`}
                 name={chart.name}
                 className="h-7"
-              />
+              /> */}
             </div>
           )}
           {tab === "theme" && (

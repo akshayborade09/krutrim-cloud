@@ -11,7 +11,7 @@ import { themes } from "@/registry/registry-themes"
 import { ui } from "@/registry/registry-ui"
 
 export const registry = {
-  name: "shadcn/ui",
+  name: "Krutrim Cloud UI",
   homepage: "https://ui.shadcn.com",
   items: [
     ...ui,

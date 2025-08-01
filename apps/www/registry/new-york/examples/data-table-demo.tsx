@@ -41,31 +41,31 @@ const data: Payment[] = [
     id: "m5gr84i9",
     amount: 316,
     status: "success",
-    email: "ken99@example.com",
+    email: "rahul.kumar@example.com",
   },
   {
     id: "3u1reuv4",
     amount: 242,
     status: "success",
-    email: "Abe45@example.com",
+    email: "priya.sharma@example.com",
   },
   {
     id: "derv1ws0",
     amount: 837,
     status: "processing",
-    email: "Monserrat44@example.com",
+    email: "amit.patel@example.com",
   },
   {
     id: "5kma53ae",
     amount: 874,
     status: "success",
-    email: "Silas22@example.com",
+    email: "neha.gupta@example.com",
   },
   {
     id: "bhqecj4p",
     amount: 721,
     status: "failed",
-    email: "carmella@example.com",
+    email: "rajesh.singh@example.com",
   },
 ]
 
@@ -127,10 +127,10 @@ export const columns: ColumnDef<Payment>[] = [
     cell: ({ row }) => {
       const amount = parseFloat(row.getValue("amount"))
 
-      // Format the amount as a dollar amount
-      const formatted = new Intl.NumberFormat("en-US", {
+      // Format the amount as a rupee amount
+      const formatted = new Intl.NumberFormat("en-IN", {
         style: "currency",
-        currency: "USD",
+        currency: "INR",
       }).format(amount)
 
       return <div className="text-right font-medium">{formatted}</div>

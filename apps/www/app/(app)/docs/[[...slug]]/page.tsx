@@ -10,7 +10,7 @@ import Balancer from "react-wrap-balancer"
 import { getTableOfContents } from "@/lib/toc"
 import { absoluteUrl, cn } from "@/lib/utils"
 import { Mdx } from "@/components/mdx-components"
-import { OpenInV0Cta } from "@/components/open-in-v0-cta"
+// import { OpenInV0Cta } from "@/components/open-in-v0-cta"
 import { DocsPager } from "@/components/pager"
 import { DashboardTableOfContents } from "@/components/toc"
 import { badgeVariants } from "@/registry/new-york/ui/badge"
@@ -93,13 +93,13 @@ export default async function DocPage({ params }: DocPageProps) {
   return (
     <main className="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
       <div className="mx-auto w-full min-w-0 max-w-2xl">
-        <div className="mb-4 flex items-center space-x-1 text-sm leading-none text-muted-foreground">
+        {/* <div className="mb-4 flex items-center space-x-1 text-sm leading-none text-muted-foreground">
           <Link href="/docs" className="truncate">
             Docs
           </Link>
           <ChevronRight className="h-3.5 w-3.5" />
           <div className="text-foreground">{doc.title}</div>
-        </div>
+        </div> */}
         <div className="space-y-2">
           <h1 className={cn("scroll-m-20 text-3xl font-bold tracking-tight")}>
             {doc.title}
@@ -110,7 +110,7 @@ export default async function DocPage({ params }: DocPageProps) {
             </p>
           )}
         </div>
-        {doc.links ? (
+        {/* {doc.links ? (
           <div className="flex items-center space-x-2 pt-4">
             {doc.links?.doc && (
               <Link
@@ -135,7 +135,7 @@ export default async function DocPage({ params }: DocPageProps) {
               </Link>
             )}
           </div>
-        ) : null}
+        ) : null} */}
         <div className="pb-12 pt-8">
           <Mdx code={doc.body.code} />
         </div>
@@ -145,7 +145,7 @@ export default async function DocPage({ params }: DocPageProps) {
         <div className="sticky top-20 -mt-6 h-[calc(100vh-3.5rem)] pt-4">
           <div className="no-scrollbar h-full overflow-auto pb-10">
             {doc.toc && <DashboardTableOfContents toc={toc} />}
-            <OpenInV0Cta className="mt-6 max-w-[80%]" />
+            {/* <OpenInV0Cta className="mt-6 max-w-[80%]" /> */}
           </div>
         </div>
       </div>

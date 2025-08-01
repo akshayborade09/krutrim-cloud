@@ -216,7 +216,7 @@ function BlockViewerToolbar() {
           <span>npx shadcn add {item.name}</span>
         </Button>
         <Separator orientation="vertical" className="mx-1 !h-4" />
-        <OpenInV0Button name={item.name} />
+        {/* <OpenInV0Button name={item.name} /> */}
       </div>
     </div>
   )

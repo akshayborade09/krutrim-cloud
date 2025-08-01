@@ -20,7 +20,7 @@ const DEPRECATED_ITEMS = [
 ]
 
 export const registry = {
-  name: "shadcn/ui",
+  name: "Krutrim Cloud UI",
   homepage: "https://ui.shadcn.com",
   items: z.array(registryItemSchema).parse(
     [

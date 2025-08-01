@@ -42,28 +42,28 @@ import {
 
 const users = [
   {
-    name: "Olivia Martin",
-    email: "m@example.com",
+    name: "Rahul Kumar",
+    email: "rahul.kumar@example.com",
     avatar: "/avatars/01.png",
   },
   {
-    name: "Isabella Nguyen",
-    email: "isabella.nguyen@email.com",
+    name: "Amit Patel",
+    email: "amit.patel@email.com",
     avatar: "/avatars/03.png",
   },
   {
-    name: "Emma Wilson",
-    email: "emma@example.com",
+    name: "Priya Sharma",
+    email: "priya.sharma@example.com",
     avatar: "/avatars/05.png",
   },
   {
-    name: "Jackson Lee",
-    email: "lee@example.com",
+    name: "Neha Gupta",
+    email: "neha.gupta@example.com",
     avatar: "/avatars/02.png",
   },
   {
-    name: "William Kim",
-    email: "will@email.com",
+    name: "Rajesh Singh",
+    email: "rajesh.singh@email.com",
     avatar: "/avatars/04.png",
   },
 ] as const

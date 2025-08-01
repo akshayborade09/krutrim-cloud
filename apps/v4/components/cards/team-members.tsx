@@ -31,20 +31,20 @@ import {
 
 const teamMembers = [
   {
-    name: "Sofia Davis",
-    email: "m@example.com",
+    name: "Rahul Kumar",
+    email: "rahul.kumar@example.com",
     avatar: "/avatars/01.png",
     role: "Owner",
   },
   {
-    name: "Jackson Lee",
-    email: "p@example.com",
+    name: "Priya Sharma",
+    email: "priya.sharma@example.com",
     avatar: "/avatars/02.png",
     role: "Developer",
   },
   {
-    name: "Isabella Nguyen",
-    email: "i@example.com",
+    name: "Amit Patel",
+    email: "amit.patel@example.com",
     avatar: "/avatars/03.png",
     role: "Billing",
   },

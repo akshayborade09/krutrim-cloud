@@ -26,23 +26,23 @@ import { Separator } from "@/registry/new-york-v4/ui/separator"
 
 const people = [
   {
-    name: "Olivia Martin",
-    email: "m@example.com",
+    name: "Rahul Kumar",
+    email: "rahul.kumar@example.com",
     avatar: "/avatars/03.png",
   },
   {
-    name: "Isabella Nguyen",
-    email: "b@example.com",
+    name: "Amit Patel",
+    email: "amit.patel@example.com",
     avatar: "/avatars/04.png",
   },
   {
-    name: "Sofia Davis",
-    email: "p@example.com",
+    name: "Priya Sharma",
+    email: "priya.sharma@example.com",
     avatar: "/avatars/05.png",
   },
   {
-    name: "Ethan Thompson",
-    email: "e@example.com",
+    name: "Neha Gupta",
+    email: "neha.gupta@example.com",
     avatar: "/avatars/01.png",
   },
 ]

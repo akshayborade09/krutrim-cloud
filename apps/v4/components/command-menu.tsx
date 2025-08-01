@@ -148,7 +148,7 @@ export function CommandMenu({
           onClick={() => setOpen(true)}
           {...props}
         >
-          <span className="hidden lg:inline-flex">Search documentation...</span>
+          <span className="hidden lg:inline-flex">Search components...</span>
           <span className="inline-flex lg:hidden">Search...</span>
           <div className="absolute top-1.5 right-1.5 hidden gap-1 sm:flex">
             <CommandMenuKbd>{isMac ? "⌘" : "Ctrl"}</CommandMenuKbd>
@@ -161,7 +161,7 @@ export function CommandMenu({
         className="rounded-xl border-none bg-clip-padding p-2 pb-11 shadow-2xl ring-4 ring-neutral-200/80 dark:bg-neutral-900 dark:ring-neutral-800"
       >
         <DialogHeader className="sr-only">
-          <DialogTitle>Search documentation...</DialogTitle>
+          <DialogTitle>Search components...</DialogTitle>
           <DialogDescription>Search for a command to run...</DialogDescription>
         </DialogHeader>
         <Command
@@ -174,12 +174,12 @@ export function CommandMenu({
             return 0
           }}
         >
-          <CommandInput placeholder="Search documentation..." />
+          <CommandInput placeholder="Search components..." />
           <CommandList className="no-scrollbar min-h-80 scroll-pt-2 scroll-pb-1.5">
             <CommandEmpty className="text-muted-foreground py-12 text-center text-sm">
               No results found.
             </CommandEmpty>
-            {navItems && navItems.length > 0 && (
+            {/* {navItems && navItems.length > 0 && (
               <CommandGroup
                 heading="Pages"
                 className="!p-0 [&_[cmdk-group-heading]]:scroll-mt-16 [&_[cmdk-group-heading]]:!p-3 [&_[cmdk-group-heading]]:!pb-1"
@@ -202,7 +202,7 @@ export function CommandMenu({
                   </CommandMenuItem>
                 ))}
               </CommandGroup>
-            )}
+            )} */}
             {tree.children.map((group) => (
               <CommandGroup
                 key={group.$id}

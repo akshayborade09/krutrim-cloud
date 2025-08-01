@@ -287,9 +287,9 @@ export default function Dashboard() {
                   </TableRow>
                   <TableRow>
                     <TableCell>
-                      <div className="font-medium">Olivia Smith</div>
+                      <div className="font-medium">Rajesh Singh</div>
                       <div className="hidden text-sm text-muted-foreground md:inline">
-                        olivia@example.com
+                        rajesh.singh@example.com
                       </div>
                     </TableCell>
                     <TableCell className="hidden xl:table-column">
@@ -303,13 +303,13 @@ export default function Dashboard() {
                     <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
                       2023-06-24
                     </TableCell>
-                    <TableCell className="text-right">$150.00</TableCell>
+                    <TableCell className="text-right">₹15,000.00</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableCell>
-                      <div className="font-medium">Noah Williams</div>
+                      <div className="font-medium">Deepak Verma</div>
                       <div className="hidden text-sm text-muted-foreground md:inline">
-                        noah@example.com
+                        deepak.verma@example.com
                       </div>
                     </TableCell>
                     <TableCell className="hidden xl:table-column">
@@ -323,13 +323,13 @@ export default function Dashboard() {
                     <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
                       2023-06-25
                     </TableCell>
-                    <TableCell className="text-right">$350.00</TableCell>
+                    <TableCell className="text-right">₹35,000.00</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableCell>
-                      <div className="font-medium">Emma Brown</div>
+                      <div className="font-medium">Anita Desai</div>
                       <div className="hidden text-sm text-muted-foreground md:inline">
-                        emma@example.com
+                        anita.desai@example.com
                       </div>
                     </TableCell>
                     <TableCell className="hidden xl:table-column">
@@ -343,13 +343,13 @@ export default function Dashboard() {
                     <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
                       2023-06-26
                     </TableCell>
-                    <TableCell className="text-right">$450.00</TableCell>
+                    <TableCell className="text-right">₹45,000.00</TableCell>
                   </TableRow>
                   <TableRow>
                     <TableCell>
-                      <div className="font-medium">Liam Johnson</div>
+                      <div className="font-medium">Vikram Malhotra</div>
                       <div className="hidden text-sm text-muted-foreground md:inline">
-                        liam@example.com
+                        vikram.malhotra@example.com
                       </div>
                     </TableCell>
                     <TableCell className="hidden xl:table-column">
@@ -363,7 +363,7 @@ export default function Dashboard() {
                     <TableCell className="hidden md:table-cell lg:hidden xl:table-column">
                       2023-06-27
                     </TableCell>
-                    <TableCell className="text-right">$550.00</TableCell>
+                    <TableCell className="text-right">₹55,000.00</TableCell>
                   </TableRow>
                 </TableBody>
               </Table>
@@ -377,77 +377,77 @@ export default function Dashboard() {
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
                   <AvatarImage src="/avatars/01.png" alt="Avatar" />
-                  <AvatarFallback>OM</AvatarFallback>
+                  <AvatarFallback>RK</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">
                   <p className="text-sm font-medium leading-none">
-                    Olivia Martin
+                    Rahul Kumar
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    olivia.martin@email.com
+                    rahul.kumar@email.com
                   </p>
                 </div>
-                <div className="ml-auto font-medium">+$1,999.00</div>
+                <div className="ml-auto font-medium">+₹1,99,900.00</div>
               </div>
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
                   <AvatarImage src="/avatars/02.png" alt="Avatar" />
-                  <AvatarFallback>JL</AvatarFallback>
+                  <AvatarFallback>PS</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">
                   <p className="text-sm font-medium leading-none">
-                    Jackson Lee
+                    Priya Sharma
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    jackson.lee@email.com
+                    priya.sharma@email.com
                   </p>
                 </div>
-                <div className="ml-auto font-medium">+$39.00</div>
+                <div className="ml-auto font-medium">+₹3,900.00</div>
               </div>
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
                   <AvatarImage src="/avatars/03.png" alt="Avatar" />
-                  <AvatarFallback>IN</AvatarFallback>
+                  <AvatarFallback>AP</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">
                   <p className="text-sm font-medium leading-none">
-                    Isabella Nguyen
+                    Amit Patel
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    isabella.nguyen@email.com
+                    amit.patel@email.com
                   </p>
                 </div>
-                <div className="ml-auto font-medium">+$299.00</div>
+                <div className="ml-auto font-medium">+₹29,900.00</div>
               </div>
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
                   <AvatarImage src="/avatars/04.png" alt="Avatar" />
-                  <AvatarFallback>WK</AvatarFallback>
+                  <AvatarFallback>NG</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">
                   <p className="text-sm font-medium leading-none">
-                    William Kim
+                    Neha Gupta
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    will@email.com
+                    neha.gupta@email.com
                   </p>
                 </div>
-                <div className="ml-auto font-medium">+$99.00</div>
+                <div className="ml-auto font-medium">+₹9,900.00</div>
               </div>
               <div className="flex items-center gap-4">
                 <Avatar className="hidden h-9 w-9 sm:flex">
                   <AvatarImage src="/avatars/05.png" alt="Avatar" />
-                  <AvatarFallback>SD</AvatarFallback>
+                  <AvatarFallback>RS</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">
                   <p className="text-sm font-medium leading-none">
-                    Sofia Davis
+                    Rajesh Singh
                   </p>
                   <p className="text-sm text-muted-foreground">
-                    sofia.davis@email.com
+                    rajesh.singh@email.com
                   </p>
                 </div>
-                <div className="ml-auto font-medium">+$39.00</div>
+                <div className="ml-auto font-medium">+₹3,900.00</div>
               </div>
             </CardContent>
           </Card>

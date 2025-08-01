@@ -65,7 +65,7 @@ export function ChartCodeViewer({
                 name={chart.name}
                 code={chart.files?.[0]?.content ?? ""}
               />
-              <OpenInV0Button name={chart.name} className="rounded-sm" />
+              {/* <OpenInV0Button name={chart.name} className="rounded-sm" /> */}
             </div>
           </figcaption>
           <div

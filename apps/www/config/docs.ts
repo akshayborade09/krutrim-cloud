@@ -16,14 +16,14 @@ export const docsConfig: DocsConfig = {
       title: "Documentation",
       href: "/docs",
     },
-    {
-      title: "Components",
-      href: "/docs/components/accordion",
-    },
-    {
-      title: "Blocks",
-      href: "/blocks",
-    },
+    // {
+    //   title: "Components",
+    //   href: "/docs/components/accordion",
+    // },
+    // {
+    //   title: "Blocks",
+    //   href: "/blocks",
+    // },
     {
       title: "Charts",
       href: "/charts",
@@ -38,132 +38,132 @@ export const docsConfig: DocsConfig = {
     },
   ],
   sidebarNav: [
-    {
-      title: "Getting Started",
-      items: [
-        {
-          title: "Introduction",
-          href: "/docs",
-          items: [],
-        },
-        {
-          title: "Installation",
-          href: "/docs/installation",
-          items: [],
-        },
-        {
-          title: "components.json",
-          href: "/docs/components-json",
-          items: [],
-        },
-        {
-          title: "Theming",
-          href: "/docs/theming",
-          items: [],
-        },
-        {
-          title: "Dark mode",
-          href: "/docs/dark-mode",
-          items: [],
-        },
-        {
-          title: "CLI",
-          href: "/docs/cli",
-          items: [],
-        },
-        {
-          title: "Monorepo",
-          href: "/docs/monorepo",
-          items: [],
-        },
-        {
-          title: "Tailwind v4",
-          href: "/docs/tailwind-v4",
-          items: [],
-          label: "New",
-        },
-        {
-          title: "Next.js 15 + React 19",
-          href: "/docs/react-19",
-          items: [],
-        },
-        {
-          title: "Typography",
-          href: "/docs/components/typography",
-          items: [],
-        },
-        {
-          title: "Open in v0",
-          href: "/docs/v0",
-          items: [],
-        },
-        {
-          title: "Blocks",
-          href: "/docs/blocks",
-          items: [],
-        },
-        {
-          title: "Figma",
-          href: "/docs/figma",
-          items: [],
-        },
-        {
-          title: "Changelog",
-          href: "/docs/changelog",
-          items: [],
-        },
-      ],
-    },
-    {
-      title: "Installation",
-      items: [
-        {
-          title: "Next.js",
-          href: "/docs/installation/next",
-          items: [],
-        },
-        {
-          title: "Vite",
-          href: "/docs/installation/vite",
-          items: [],
-        },
-        {
-          title: "Laravel",
-          href: "/docs/installation/laravel",
-          items: [],
-        },
-        {
-          title: "React Router",
-          href: "/docs/installation/react-router",
-          items: [],
-        },
-        {
-          title: "Remix",
-          href: "/docs/installation/remix",
-          items: [],
-        },
-        {
-          title: "Astro",
-          href: "/docs/installation/astro",
-          items: [],
-        },
-        {
-          title: "Tanstack Start",
-          href: "/docs/installation/tanstack",
-          items: [],
-        },
-        {
-          title: "Tanstack Router",
-          href: "/docs/installation/tanstack-router",
-          items: [],
-        },
-        {
-          title: "Manual",
-          href: "/docs/installation/manual",
-          items: [],
-        },
-      ],
-    },
+    // {
+    //   title: "Getting Started",
+    //   items: [
+    //     {
+    //       title: "Introduction",
+    //       href: "/docs",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Installation",
+    //       href: "/docs/installation",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "components.json",
+    //       href: "/docs/components-json",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Theming",
+    //       href: "/docs/theming",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Dark mode",
+    //       href: "/docs/dark-mode",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "CLI",
+    //       href: "/docs/cli",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Monorepo",
+    //       href: "/docs/monorepo",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Tailwind v4",
+    //       href: "/docs/tailwind-v4",
+    //       items: [],
+    //       label: "New",
+    //     },
+    //     {
+    //       title: "Next.js 15 + React 19",
+    //       href: "/docs/react-19",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Typography",
+    //       href: "/docs/components/typography",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Open in v0",
+    //       href: "/docs/v0",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Blocks",
+    //       href: "/docs/blocks",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Figma",
+    //       href: "/docs/figma",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Changelog",
+    //       href: "/docs/changelog",
+    //       items: [],
+    //     },
+    //   ],
+    // },
+    // {
+    //   title: "Installation",
+    //   items: [
+    //     {
+    //       title: "Next.js",
+    //       href: "/docs/installation/next",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Vite",
+    //       href: "/docs/installation/vite",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Laravel",
+    //       href: "/docs/installation/laravel",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "React Router",
+    //       href: "/docs/installation/react-router",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Remix",
+    //       href: "/docs/installation/remix",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Astro",
+    //       href: "/docs/installation/astro",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Tanstack Start",
+    //       href: "/docs/installation/tanstack",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Tanstack Router",
+    //       href: "/docs/installation/tanstack-router",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Manual",
+    //       href: "/docs/installation/manual",
+    //       items: [],
+    //     },
+    //   ],
+    // },
     {
       title: "Components",
       items: [
@@ -419,47 +419,47 @@ export const docsConfig: DocsConfig = {
         },
       ],
     },
-    {
-      title: "Registry",
-      label: "New",
-      items: [
-        {
-          title: "Introduction",
-          href: "/docs/registry",
-          items: [],
-        },
-        {
-          title: "Getting Started",
-          href: "/docs/registry/getting-started",
-          items: [],
-        },
-        {
-          title: "Examples",
-          href: "/docs/registry/examples",
-          items: [],
-        },
-        {
-          title: "Open in v0",
-          href: "/docs/registry/open-in-v0",
-          items: [],
-        },
-        {
-          title: "FAQ",
-          href: "/docs/registry/faq",
-          items: [],
-        },
-        {
-          title: "registry.json",
-          href: "/docs/registry/registry-json",
-          items: [],
-        },
-        {
-          title: "registry-item.json",
-          href: "/docs/registry/registry-item-json",
-          items: [],
-        },
-      ],
-    },
+    // {
+    //   title: "Registry",
+    //   label: "New",
+    //   items: [
+    //     {
+    //       title: "Introduction",
+    //       href: "/docs/registry",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Getting Started",
+    //       href: "/docs/registry/getting-started",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Examples",
+    //       href: "/docs/registry/examples",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "Open in v0",
+    //       href: "/docs/registry/open-in-v0",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "FAQ",
+    //       href: "/docs/registry/faq",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "registry.json",
+    //       href: "/docs/registry/registry-json",
+    //       items: [],
+    //     },
+    //     {
+    //       title: "registry-item.json",
+    //       href: "/docs/registry/registry-item-json",
+    //       items: [],
+    //     },
+    //   ],
+    // },
   ],
   chartsNav: [
     {

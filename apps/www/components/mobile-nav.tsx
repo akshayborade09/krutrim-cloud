@@ -49,7 +49,7 @@ export function MobileNav() {
           </svg>
           <span className="sr-only">Toggle Menu</span>
           <span className="flex h-8 flex-1 items-center justify-between rounded-md border bg-muted/50 px-2 text-sm font-normal text-muted-foreground shadow-none">
-            Search documentation...
+            Search components...
           </span>
         </Button>
       </DrawerTrigger>

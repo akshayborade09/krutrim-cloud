@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "shadcn/ui",
+  name: "Krutrim Cloud UI",
   url: "https://ui.shadcn.com",
   ogImage: "https://ui.shadcn.com/og.jpg",
   description:
@@ -13,26 +13,26 @@ export const siteConfig = {
       href: "/docs/installation",
       label: "Docs",
     },
-    {
-      href: "/docs/components",
-      label: "Components",
-    },
-    {
-      href: "/blocks",
-      label: "Blocks",
-    },
-    {
-      href: "/charts/area",
-      label: "Charts",
-    },
-    {
-      href: "/themes",
-      label: "Themes",
-    },
-    {
-      href: "/colors",
-      label: "Colors",
-    },
+    // {
+    //   href: "/docs/components",
+    //   label: "Components",
+    // },
+    // {
+    //   href: "/blocks",
+    //   label: "Blocks",
+    // },
+    // {
+    //   href: "/charts/area",
+    //   label: "Charts",
+    // },
+    // {
+    //   href: "/themes",
+    //   label: "Themes",
+    // },
+    // {
+    //   href: "/colors",
+    //   label: "Colors",
+    // },
   ],
 }
 

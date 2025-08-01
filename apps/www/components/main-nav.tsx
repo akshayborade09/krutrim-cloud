@@ -19,7 +19,7 @@ export function MainNav() {
         </span>
       </Link>
       <nav className="flex items-center gap-4 text-sm xl:gap-6">
-        <Link
+        {/* <Link
           href="/docs/installation"
           className={cn(
             "transition-colors hover:text-foreground/80",
@@ -29,9 +29,9 @@ export function MainNav() {
           )}
         >
           Docs
-        </Link>
-        <Link
-          href="/docs/components"
+        </Link> */}
+        {/* <Link
+          href="/docs/components/accordion"
           className={cn(
             "transition-colors hover:text-foreground/80",
             pathname?.startsWith("/docs/components") &&
@@ -41,8 +41,8 @@ export function MainNav() {
           )}
         >
           Components
-        </Link>
-        <Link
+        </Link> */}
+        {/* <Link
           href="/blocks"
           className={cn(
             "transition-colors hover:text-foreground/80",
@@ -52,8 +52,8 @@ export function MainNav() {
           )}
         >
           Blocks
-        </Link>
-        <Link
+        </Link> */}
+        {/* <Link
           href="/charts"
           className={cn(
             "transition-colors hover:text-foreground/80",
@@ -64,8 +64,8 @@ export function MainNav() {
           )}
         >
           Charts
-        </Link>
-        <Link
+        </Link> */}
+        {/* <Link
           href="/themes"
           className={cn(
             "transition-colors hover:text-foreground/80",
@@ -75,8 +75,8 @@ export function MainNav() {
           )}
         >
           Themes
-        </Link>
-        <Link
+        </Link> */}
+        {/* <Link
           href="/colors"
           className={cn(
             "transition-colors hover:text-foreground/80",
@@ -86,7 +86,7 @@ export function MainNav() {
           )}
         >
           Colors
-        </Link>
+        </Link> */}
       </nav>
     </div>
   )
