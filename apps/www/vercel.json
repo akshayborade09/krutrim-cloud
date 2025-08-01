@@ -1,5 +1,0 @@
-{
-  "framework": "nextjs",
-  "buildCommand": "pnpm vercel:build",
-  "outputDirectory": ".next"
-} 
