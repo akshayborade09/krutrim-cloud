@@ -16,8 +16,7 @@
     "build": "turbo --filter=www build",
     "vercel:build": "turbo --filter=www build",
     "build:cli": "turbo --filter=shadcn build",
-    "build:registry": "pnpm --filter=www,v4 build:registry && pnpm --filter=www,v4 lint:fix && pnpm format:write -- --loglevel silent",
-    "registry:build": "pnpm --filter=v4 registry:build && pnpm lint:fix && pnpm format:write -- --loglevel silent",
+    "build:registry": "pnpm --filter=www build:registry && pnpm --filter=www lint:fix && pnpm format:write -- --loglevel silent",
     "registry:capture": "pnpm --filter=www registry:capture",
     "dev": "turbo --filter=www dev",
     "shadcn-ui:dev": "turbo --filter=shadcn-ui dev",
@@ -34,8 +33,6 @@
     "docs:build": "pnpm --filter=www build:docs",
     "www:dev": "pnpm --filter=www dev",
     "www:build": "pnpm --filter=www build",
-    "v4:dev": "pnpm --filter=v4 dev",
-    "v4:build": "pnpm --filter=v4 build",
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",
     "preview": "turbo run preview",
@@ -48,7 +45,7 @@
     "pub:beta": "cd packages/shadcn && pnpm pub:beta",
     "pub:release": "cd packages/shadcn && pnpm pub:release",
     "test:dev": "turbo run test --filter=!shadcn-ui --force",
-    "test": "start-server-and-test v4:dev http://localhost:4000 test:dev"
+    "test": "start-server-and-test www:dev http://localhost:3333 test:dev"
   },
   "packageManager": "pnpm@9.0.6",
   "dependencies": {
