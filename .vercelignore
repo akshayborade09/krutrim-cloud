@@ -1,0 +1,6 @@
+apps/v4/
+packages/
+node_modules/
+.turbo/
+.git/
+*.log 
