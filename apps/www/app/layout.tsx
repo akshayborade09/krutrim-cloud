@@ -49,11 +49,7 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "/favicon-krutrim.svg",
-        type: "image/svg+xml",
-      },
-      {
-        url: "/krutrim-logo.svg",
+        url: "/favicon.svg",
         type: "image/svg+xml",
       },
       {
@@ -61,7 +57,7 @@ export const metadata: Metadata = {
         sizes: "any",
       },
     ],
-    shortcut: "/favicon-krutrim.svg",
+    shortcut: "/favicon.svg",
     apple: "/apple-touch-icon.svg",
   },
   manifest: `${siteConfig.url}/site.webmanifest`,
@@ -80,12 +76,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <head>
-          {/* Explicit favicon links for better browser support */}
-          <link rel="icon" type="image/svg+xml" href="/favicon-krutrim.svg?v=2" />
-          <link rel="icon" type="image/svg+xml" href="/krutrim-logo.svg?v=2" />
-          <link rel="shortcut icon" href="/favicon-krutrim.svg?v=2" />
-          <link rel="apple-touch-icon" href="/apple-touch-icon.svg?v=2" />
-          <meta name="msapplication-TileImage" content="/krutrim-logo.svg" />
           {/* Removed dark mode detection script - only light mode */}
         </head>
         <body

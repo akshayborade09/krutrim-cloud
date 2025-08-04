@@ -16,10 +16,10 @@ export const docsConfig: DocsConfig = {
       title: "Documentation",
       href: "/docs",
     },
-    {
-      title: "Components",
-      href: "/components/accordion",
-    },
+    // {
+    //   title: "Components",
+    //   href: "/docs/components/accordion",
+    // },
     // {
     //   title: "Blocks",
     //   href: "/blocks",
