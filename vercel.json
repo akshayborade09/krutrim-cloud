@@ -1,8 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "echo 'Build starting from:' && pwd && echo 'Directory contents:' && ls -la && echo 'Apps directory:' && ls -la apps/ && cd apps/www && pnpm vercel:build:debug",
-  "outputDirectory": "apps/www/.next",
+  "buildCommand": "cd ../.. && pnpm --filter=www vercel:build",
   "installCommand": "pnpm install --frozen-lockfile",
+  "outputDirectory": "apps/www/.next",
   "framework": null,
   "functions": {
     "apps/www/app/**/*.{js,ts,tsx}": {
