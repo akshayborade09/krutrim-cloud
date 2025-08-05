@@ -410,9 +410,7 @@ export default function Dashboard() {
                   <AvatarFallback>AP</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">
-                  <p className="text-sm font-medium leading-none">
-                    Amit Patel
-                  </p>
+                  <p className="text-sm font-medium leading-none">Amit Patel</p>
                   <p className="text-sm text-muted-foreground">
                     amit.patel@email.com
                   </p>
@@ -425,9 +423,7 @@ export default function Dashboard() {
                   <AvatarFallback>NG</AvatarFallback>
                 </Avatar>
                 <div className="grid gap-1">
-                  <p className="text-sm font-medium leading-none">
-                    Neha Gupta
-                  </p>
+                  <p className="text-sm font-medium leading-none">Neha Gupta</p>
                   <p className="text-sm text-muted-foreground">
                     neha.gupta@email.com
                   </p>
