@@ -1,0 +1,9 @@
+{
+  "projectId": "your-project-id",
+  "orgId": "your-org-id",
+  "settings": {
+    "buildCommand": "cd apps/www && npm run vercel:build",
+    "installCommand": "npm install",
+    "outputDirectory": "apps/www/.next"
+  }
+}
