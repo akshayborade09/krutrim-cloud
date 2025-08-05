@@ -12,6 +12,7 @@
     "vercel:build:safe": "echo 'Safe build (skip shadcn)...' && contentlayer2 build && npm run build:registry && next build",
     "vercel:build:minimal": "echo 'Minimal build...' && contentlayer2 build && next build",
     "debug:env": "echo 'Node:' $(node -v) '| pnpm:' $(pnpm -v) '| PWD:' $(pwd) && ls -la",
+    "vercel:build:debug": "echo 'Current directory:' && pwd && echo 'Directory contents:' && ls -la && echo 'Parent directory:' && ls -la ../ && echo 'Root directory:' && ls -la ../../ && pnpm vercel:build:safe",
     "build:registry": "tsx --tsconfig ./tsconfig.scripts.json ./scripts/build-registry.mts && prettier --loglevel silent --write \"registry/**/*.{ts,tsx,mdx}\" --cache",
     "registry:build": "tsx --tsconfig ./tsconfig.scripts.json ./scripts/build-registry.mts && prettier --loglevel silent --write \"registry/**/*.{ts,tsx,mdx}\" --cache",
     "registry:capture": "tsx --tsconfig ./tsconfig.scripts.json ./scripts/capture-registry.mts",

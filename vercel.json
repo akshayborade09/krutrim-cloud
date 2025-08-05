@@ -1,9 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "cd apps/www && pnpm vercel:build",
+  "buildCommand": "echo 'Build starting from:' && pwd && echo 'Directory contents:' && ls -la && echo 'Apps directory:' && ls -la apps/ && cd apps/www && pnpm vercel:build:debug",
   "outputDirectory": "apps/www/.next",
   "installCommand": "pnpm install --frozen-lockfile",
-  "framework": "nextjs",
+  "framework": null,
   "functions": {
     "apps/www/app/**/*.{js,ts,tsx}": {
       "maxDuration": 30

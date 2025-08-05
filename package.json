@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "build": "turbo --filter=www build",
-    "vercel:build": "turbo --filter=www build",
+    "vercel:build": "cd apps/www && pnpm vercel:build",
+    "vercel:build:root": "pnpm --filter=www vercel:build",
     "build:cli": "turbo --filter=shadcn build",
     "build:registry": "pnpm --filter=www build:registry && pnpm --filter=www lint:fix && pnpm format:write -- --loglevel silent",
     "registry:capture": "pnpm --filter=www registry:capture",
